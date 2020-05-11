@@ -11,7 +11,6 @@ List<Emp_Pojo> emp_Details;
 
     public Emp_Repository() {
         emp_Details = new LinkedList<Emp_Pojo>();
-
         Emp_Pojo emp=new Emp_Pojo();
         emp.setEmp_id(1);
         emp.setEmp_Age("26");

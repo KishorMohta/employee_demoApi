@@ -1,10 +1,8 @@
 package com.dummy.api.springbootconfig.Model;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement
 public class Emp_Pojo {
      private String emp_Name;
+
     private String emp_Age;
      private String emp_Sal;
     private int emp_id;
