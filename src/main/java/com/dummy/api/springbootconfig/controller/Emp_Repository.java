@@ -11,17 +11,11 @@ List<Emp_Pojo> emp_Details;
 
     public Emp_Repository() {
         emp_Details = new LinkedList<Emp_Pojo>();
-        Emp_Pojo emp=new Emp_Pojo();
-        emp.setEmp_id(1);
-        emp.setEmp_Age("26");
-        emp.setEmp_Name("abc");
-        emp.setEmp_Sal("12456789");
 
-        Emp_Pojo emp1=new Emp_Pojo();
-        emp1.setEmp_id(2);
-        emp1.setEmp_Age("2");
-        emp1.setEmp_Name("def");
-        emp1.setEmp_Sal("987654321");
+       // (String emp_Name, String emp_Age, String emp_Sal, int emp_id)
+
+        Emp_Pojo emp=new Emp_Pojo("abc","26","12344",1);
+        Emp_Pojo emp1=new Emp_Pojo("def","2","556677",2);
 
         emp_Details.add(emp);
         emp_Details.add(emp1);
